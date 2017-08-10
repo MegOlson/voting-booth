@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Voting Booth</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="voting">
+        <div class="radio under-18">
+          <label>
+            <input type="radio" name="age" value="seventeen-">
+            17 and younger
+          </label>
+        </div>
+        <div class="radio over-18">
+          <label>
+            <input type="radio" name="age" value="seventeen+">
+            18 and older
+          </label>
+        </div>
+        <div class="younger">
+          <p>In the United States, the legal voting age is 18 years of age or older. Unfortunately you are too young to vote. <a href="https://www.usa.gov/election">Here</a> is a link giving information on the voting process.</p>
+        </div>
+        <div class="older">
+          <p>Congratulations! You are legally elligable to vote in the United States. <a href="https://vote.gov/">Here</a> you can register to vote in the next election.</p>
+        </div>
+        <button type="button" name="button">Next</button>
+      </form>
+  </body>
+</html>
